@@ -1,7 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gajraj One", cursive;
+}
+body {
+  background-color: #4285f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+section {
+  background-color: #fff;
+  width: 450px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.full_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+button {
+  width: 10%;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #4285f4;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.paragraphe_style {
+  margin: 10px 0;
+  padding: 10px 0;
+  padding-left: 5px;
+  border-radius: 6px;
+  color: #4285f4;
+  background-color: aquamarine;
+  word-break: break-all;
+  cursor: pointer;
+    animation: anime 0.5s linear;
+}
+.paragraphe_style:last-child {
+  margin-bottom: 0;
+}
+@keyframes anime {
+  from {
+    transform: translateY(50px);
+  }
+}
+.paragraphe_click {
+  background-color: #4285f4;
+  text-decoration: line-through;
 }
